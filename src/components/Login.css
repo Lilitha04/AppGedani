@@ -1,0 +1,68 @@
+.login-container {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.app-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.login-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #5cb85c;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #4cae4c;
+}
+
+.forgot-password {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+/*para el mensaje de error al iniciar sesión*/
+.error-message { 
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
